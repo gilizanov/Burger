@@ -1,0 +1,97 @@
+[
+	{
+		"code": "bun_bottom",
+		"name": "Булочка",
+		"time": 0.5,
+		"g": 35,
+		"kcal": 70,
+		"price": 30,
+		"imageUrl": "/images/ingredients/bun_bottom.png",
+		"auto": true
+	},
+	{
+		"code": "bun_top",
+		"name": "Булочка",
+		"time": 0.5,
+		"g": 20,
+		"kcal": 90,
+		"price": 45,
+		"imageUrl": "/images/ingredients/bun_top.png",
+		"auto": true
+	},
+	{
+		"code": "bun_middle",
+		"name": "Булочка",
+		"time": 0.5,
+		"g": 15,
+		"kcal": 65,
+		"price": 25,
+		"imageUrl": "/images/ingredients/bun_middle.png"
+	},
+	{
+		"code": "cutlet",
+		"name": "Котлетка",
+		"time": 0.5,
+		"g": 50,
+		"kcal": 249,
+		"price": 80,
+		"imageUrl": "/images/ingredients/cutlet.png"
+	},
+	{
+		"code": "sauce",
+		"name": "Соус",
+		"time": 0.5,
+		"g": 15,
+		"kcal": 100,
+		"price": 40,
+		"imageUrl": "/images/ingredients/mayo.png"
+	},
+	{
+		"code": "onion",
+		"name": "Лучок",
+		"time": 0.25,
+		"g": 20,
+		"kcal": 45,
+		"price": 20,
+		"imageUrl": "/images/ingredients/onion.png",
+		"imageUrlGroup": "/images/ingredients/onion_group.png"
+	},
+	{
+		"code": "tomato",
+		"name": "Помидорка",
+		"time": 1,
+		"g": 30,
+		"kcal": 60,
+		"price": 35,
+		"imageUrl": "/images/ingredients/tomato.png",
+		"imageUrlGroup": "/images/ingredients/tomato_group.png"
+	},
+	{
+		"code": "cucumber",
+		"name": "Огурчики",
+		"time": 0.75,
+		"g": 25,
+		"kcal": 50,
+		"price": 35,
+		"imageUrl": "/images/ingredients/cucumber.png",
+		"imageUrlGroup": "/images/ingredients/cucumber_group.png"
+	},
+	{
+		"code": "cheese",
+		"name": "Ломтики сыра",
+		"time": 1,
+		"g": 15,
+		"kcal": 65,
+		"price": 50,
+		"imageUrl": "/images/ingredients/cheese.png"
+	},
+	{
+		"code": "salad",
+		"name": "Листочки салата",
+		"time": 1.25,
+		"g": 20,
+		"kcal": 30,
+		"price": 30,
+		"imageUrl": "/images/ingredients/salad.png"
+	}
+]

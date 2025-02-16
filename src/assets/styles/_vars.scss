@@ -1,0 +1,56 @@
+:root {
+	/* Colors */
+	--clr-indigo-600:#473AA6;
+	--clr-indigo-500:#5243C2;
+
+	--clr-red-500: #FF4D4F;
+	--clr-red-400: #FF9293;
+	--clr-red-300: #FFC8C8;
+	--clr-red-200: #FFEDED; 
+
+	--clr-white: #FFFFFF;
+	--clr-titan-white:#F5F5FF;
+  --clr-black-squeeze:#F0F7FA;
+
+	--clr-muted: #949BA6;
+	--clr-gray-200: #D5D5D5;
+  --clr-gray-100: #F4F4F4;
+
+	--clr-dark: #1F2939;
+	--clr-black: #000000;
+
+	/* Fonts */
+	--font-family: 'Open Sans', sans-serif;
+
+	--font-800_36: 800 36px var(--font-family);
+	--font-800_24: 800 24px / 125% var(--font-family);
+	--font-800_16: 800 16px / 125% var(--font-family);
+
+	--font-700_72: 700 72px / 111% var(--font-family);
+
+	--font-600_48: 600 48px var(--font-family);
+	--font-600_36: 600 36px var(--font-family);
+	--font-600_24: 600 24px var(--font-family);
+	--font-600_20: 600 20px / 160% var(--font-family);
+	--font-600_16: 600 16px / 125% var(--font-family);
+	--font-600_14: 600 14px / 143% var(--font-family);
+	--font-600_12: 600 12px var(--font-family);
+
+	--font-400_20: 400 20px / 160% var(--font-family);
+	--font-400_16: 400 16px / 125% var(--font-family);
+	--font-400_14: 400 14px / 143% var(--font-family);
+	--font-400_12: 400 12px var(--font-family);
+
+	/* Layout */
+	--content-width: 1400px;
+	--content-width-mob: 660px;
+	--container-offset: 20px;
+	--container-offset-mob: 32px;
+
+	--container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+	--container-width-mob: calc(var(--content-width-mob) + (var(--container-offset-mob) * 2));
+
+
+	--header-height: 144px;
+	--header-height-mob: 80px;
+}

@@ -1,0 +1,117 @@
+@use 'mixins' as *;
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: var(--font-family);
+	height: 100vh;
+	
+	@include desktop {
+		overflow: hidden;
+	}
+
+	&.no-scroll {
+		overflow: hidden;
+	}
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+main {
+	flex-grow: 1;
+}
+
+button {
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-background-clip: text !important;
+  -webkit-transition: background-color 600000s, color 600000s !important;
+  background-clip: text !important;
+  transition: background-color 600000s, color 600000s !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+.container {
+	max-width: var(--container-width);
+	margin: 0 auto;
+	padding: 0 var(--container-offset);
+
+	@include mobile {
+		max-width: var(--container-width-mob);
+		padding: 0 var(--container-offset-mob);
+	}
+}
