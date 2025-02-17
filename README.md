@@ -1,0 +1,1 @@
+The Burger Builder is a Vue.js app built with Pinia and TypeScript, enabling users to create custom burgers by selecting ingredients. It calculates the total cost, preparation time, and calories in real-time, providing a detailed summary of the burger.
