@@ -2,7 +2,7 @@
   <li class="ingredients__item" @click="isMobile && openPopup('IngredientPopup', ingredient)">
     <div class="ingredients__item-image">
       <picture>
-        <img loading="lazy" :src="ingredient.imageUrl" class="image" :alt="ingredient.code" />
+        <img :src="ingredient.imageUrl" class="image" :alt="ingredient.code" />
       </picture>
     </div>
     <p class="ingredients__item-name">{{ ingredient.name }}</p>

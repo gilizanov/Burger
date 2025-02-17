@@ -274,6 +274,11 @@ const onClick = () => {
     &--salad-top {
       transform: scale(0.7);
     }
+
+    &--mayo-top,
+    &--mayo-bottom {
+      width: 100%;
+    }
   }
 
   .burger-emj {
